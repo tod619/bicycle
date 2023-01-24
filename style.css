@@ -124,4 +124,15 @@ body {
     transform: rotateY(-70deg);
     border-radius: 2rem;
 }
+
+.crossbar {
+    width: 27rem;
+    height: 3.5rem;
+    background-color: #000;
+    top: 22rem;
+    left: 26rem;
+    transform: rotateZ(20deg);
+    transform-origin: left top;
+    border-radius: 0 50% 50% 0;
+}
 /* End: Bicycle */
