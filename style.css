@@ -92,4 +92,36 @@ body {
     left: -0.5rem;
     top: 0.5rem;
 }
+
+.handlebars {
+    width: 8rem;
+    height: 2rem;
+    background-color: #000;
+    top: 18rem;
+    left: 19rem;
+    transform: rotateZ(15deg);
+    perspective: 50rem;
+}
+
+.handlebars::before {
+    content: "";
+    width: 4rem;
+    aspect-ratio: 1;
+    background-color: #000;
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    border-radius: 50%;
+}
+
+.handlebars::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 30rem;
+    height: 2rem;
+    left: -15.5rem;
+    transform: rotateY(-70deg);
+    border-radius: 2rem;
+}
 /* End: Bicycle */
